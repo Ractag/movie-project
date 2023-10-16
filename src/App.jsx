@@ -1,18 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 import Footer from './components/footer'
-
+import { useState } from "react";
+import "./App.css";
+import movieList from "./components/Data";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [FilmIndex, setFilmIndex] = useState(0);
 
   return (
     <>
+      <MovieCard film={movieList[FilmIndex]} />
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

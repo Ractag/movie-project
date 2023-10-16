@@ -1,0 +1,17 @@
+header {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 1000px;
+    background-image: url("https://images.freeimages.com/images/large-previews/9ab/le-cinema-1442829.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.logo-site {
+    height: 50px;
+    margin-right: 2rem;
+    border: 3px solid white;
+    border-radius: 5%;
+}

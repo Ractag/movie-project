@@ -1,13 +1,14 @@
+import './style.scss'
+import Header from './components/Header'
 import Footer from './components/footer'
-import { useState } from "react";
 import "./App.css";
 import movieList from "./components/Data";
 
 function App() {
-  const [FilmIndex, setFilmIndex] = useState(0);
 
   return (
     <>
+      <Header/>
       <MovieCard film={movieList[FilmIndex]} />
       <Footer />
     </>

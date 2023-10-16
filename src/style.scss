@@ -4,13 +4,13 @@ $fontSize: 20px;
 
 body {
     background-image: url(./src/assets/cinema-rideau.jpg);
-    background-size: cover; 
+    background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
 }
 
-.container {   
+.container {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
@@ -23,7 +23,7 @@ header {
     height: 100px;
     width: 100%;
     border-bottom: 1px solid rgba(245, 245, 245, 0.47);
-    
+
     justify-content: center;
     color: white;
     font-family: 'Oswald', sans-serif;
@@ -66,25 +66,26 @@ p {
     justify-content: space-between;
     margin-bottom: 1rem;
 }
-         
+
 .button {
-    background-image: linear-gradient(to right, #141E30 0%, #243B55  51%, #141E30  100%);
+    background-image: linear-gradient(to right, #141E30 0%, #243B55 51%, #141E30 100%);
     margin: 10px;
     padding: 15px 45px;
     text-align: center;
     transition: 0.5s;
     background-size: 200% auto;
-    color: white;            
+    color: white;
     box-shadow: 0 0 20px #00000037;
     border-radius: 10px;
     display: block;
-  }
+}
 
-  .button:hover {
-    background-position: right center; /* change the direction of the change here */
+.button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
     color: #fff;
     text-decoration: none;
-  }
+}
 
 // @keyframes lights {
 //     0% {
@@ -95,7 +96,7 @@ p {
 //         -1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
 //         1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
 //     }
-    
+
 //     30% { 
 //       color: hsl(230, 80%, 90%);
 //       text-shadow:
@@ -104,7 +105,7 @@ p {
 //         -0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
 //         0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
 //     }
-    
+
 //     40% { 
 //       color: hsl(230, 100%, 95%);
 //       text-shadow:
@@ -113,7 +114,7 @@ p {
 //         -0.25em -0.125em 0.125em hsla(40, 100%, 60%, 0.2),
 //         0.25em 0.125em 0.125em hsla(200, 100%, 60%, 0.4);
 //     }
-    
+
 //     70% {
 //       color: hsl(230, 80%, 90%);
 //       text-shadow:
@@ -122,7 +123,7 @@ p {
 //         0.5em -0.125em 0.25em hsla(40, 100%, 60%, 0.2),
 //         -0.5em 0.125em 0.25em hsla(200, 100%, 60%, 0.4);
 //     }
-    
+
 //     100% {
 //       color: hsl(230, 40%, 80%);
 //       text-shadow:
@@ -131,24 +132,28 @@ p {
 //         1em -0.125em 0.5em hsla(40, 100%, 60%, 0),
 //         -1em 0.125em 0.5em hsla(200, 100%, 60%, 0);
 //     }
-    
+
 //   }
-  
-  h1 {
+
+h1 {
     margin: auto;
     font-size: 3rem;
     font-weight: 300;
     animation: lights 5s 750ms linear infinite;
-  }
-=====
+}
+
+.button {
     border: 2px solid black;
     width: 8.5rem;
     box-shadow: 4px 4px 4px 0 lightgray;
     margin: 20px 50px 0 50px;
 }
 
-footer { 
+.stars-container {
+    margin-top: 1em;
+}
+
+footer {
     text-align: right;
     margin: 60px 5px 10px 0;
 }
-

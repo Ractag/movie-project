@@ -10,7 +10,7 @@ import MovieCard from "./components/MovieCard";
 function App() {
   const [movieIndex, setMovieIndex] = useState(0);
   return (
-    <>
+    <div className="container">
       <Header />
       <MovieCard film={movieList[movieIndex]} />
       <NavBar
@@ -19,7 +19,7 @@ function App() {
         movieList={movieList}
       />
       <Footer />
-    </>
+    </div>
   );
 }
 

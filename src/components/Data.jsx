@@ -13,7 +13,7 @@ const movieList = [
   },
   {
     title: "Ratatata",
-    image: "./src/assets/ratatata.png",
+    image: "./src/assets/ratatatatouille.jpg",
     description:
       "Dans les ruelles de Paris, Rémi n'est pas seulement un chef, mais aussi un gangster gastronome. Entre cuisines clandestines et affrontements hilarants avec des gangs rivaux, ce rat malicieux va pimenter la vie des rues parisiennes. Ratatatat est une parodie délirante de Ratatouille, mêlant cuisine, action, et humour.",
   },

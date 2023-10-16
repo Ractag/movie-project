@@ -9,9 +9,13 @@ const NavBar = ({ movieList, movieIndex, setMovieIndex }) => {
   };
 
   return (
-    <div>
-      <button onClick={lessClick}>PRECEDENT</button>
-      <button onClick={handleClick}>SUIVANT</button>
+    <div className="button-container">
+      <button className="button" onClick={lessClick}>
+        PRECEDENT
+      </button>
+      <button className="button" onClick={handleClick}>
+        SUIVANT
+      </button>
     </div>
   );
 };

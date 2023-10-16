@@ -1,12 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Young+Serif&display=swap');
+$fontSize: 24px;
+
+body {
+    background-image: url(./src/assets/cinema-curtain-2-1620549.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.container {   
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
 header {
     display: flex;
     align-items: center;
     height: 100px;
-    width: 1000px;
+    width: 100%;
     background-image: url("https://images.freeimages.com/images/large-previews/9ab/le-cinema-1442829.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     justify-content: center;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+.movie-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    font-size: 2rem;
 }
 
 .logo-site {
@@ -14,4 +44,26 @@ header {
     margin-right: 2rem;
     border: 3px solid white;
     border-radius: 5%;
+}
+
+.movie-img {
+    height: 120%;
+    width: 80%;
+    border: 4px solid silver;
+}
+
+p {
+    font-size: $fontSize;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.button {
+    border: 2px solid black;
+    width: 8.5rem;
+    box-shadow: 4px 4px 4px 0 lightgray;
 }

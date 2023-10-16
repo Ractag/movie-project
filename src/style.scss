@@ -1,31 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Young+Serif&display=swap');
-$fontSize: 24px;
+$fontSize: 20px;
 
 body {
-    background-image: url(./src/assets/cinema-curtain-2-1620549.jpg);
+    background-image: url(./src/assets/cinema-rideau.jpg);
     background-size: cover; 
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
 
 .container {   
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0 12px;
 }
+
 
 header {
     display: flex;
     align-items: center;
     height: 100px;
     width: 100%;
-    background-image: url("https://images.freeimages.com/images/large-previews/9ab/le-cinema-1442829.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.47);
+    
     justify-content: center;
     color: white;
     font-family: 'Oswald', sans-serif;
+    padding-bottom: 30px;
 }
 
 .movie-container {
@@ -37,6 +39,7 @@ header {
 h2 {
     font-family: 'Young Serif', serif;
     font-size: 2rem;
+    color: whitesmoke;
 }
 
 .logo-site {
@@ -48,12 +51,14 @@ h2 {
 
 .movie-img {
     height: 120%;
-    width: 80%;
+    width: 50%;
     border: 4px solid silver;
 }
 
 p {
     font-size: $fontSize;
+    color: whitesmoke;
+    margin: 25px 0 0 20px;
 }
 
 .button-container {
@@ -66,4 +71,10 @@ p {
     border: 2px solid black;
     width: 8.5rem;
     box-shadow: 4px 4px 4px 0 lightgray;
+    margin: 20px 50px 0 50px;
+}
+
+footer { 
+    text-align: right;
+    margin: 60px 5px 10px 0;
 }

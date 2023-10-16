@@ -1,3 +1,4 @@
+import Footer from './components/footer'
 import { useState } from "react";
 import "./App.css";
 import movieList from "./components/Data";
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <MovieCard film={movieList[FilmIndex]} />
+      <Footer />
     </>
   );
 }

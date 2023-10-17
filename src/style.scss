@@ -59,7 +59,7 @@ h2 {
 p {
     font-size: $fontSize;
     color: whitesmoke;
-    margin: 25px 0 0 20px;
+    margin: 25px 25px 0 25px;
 }
 
 .button-container {
@@ -70,14 +70,8 @@ p {
 }
 
 .button {
-    .button:hover {
-        background-position: right center;
-        color: #fff;
-        text-decoration: none;
-    }
 
     background-image: linear-gradient(to right, #141E30 0%, #243B55 51%, #141E30 100%);
-    margin: 10px;
     padding: 15px 30px;
     text-align: center;
     transition: 0.5s;
@@ -92,6 +86,11 @@ p {
     margin: 20px 50px 0 50px;
 }
 
+.button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
 
 
 h1 {

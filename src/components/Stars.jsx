@@ -1,8 +1,7 @@
 import { Rating } from "react-simple-star-rating";
 
-function Stars({rating, setRating}) {
+function Stars() {
     
-
     const handleRating = (rating) => {
         setRating(rating);
     }

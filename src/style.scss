@@ -16,7 +16,12 @@ body {
     margin: 0 auto;
 }
 
+.stars-style {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 0;
 
+}
 header {
     display: flex;
     flex-direction: column-reverse;
@@ -71,7 +76,7 @@ p {
 
 .button {
 
-    background-image: linear-gradient(to right, #141E30 0%, #243B55 51%, #141E30 100%);
+    background-image: linear-gradient(to right, #181a1f 0%, #454c53 51%, #000000 100%);
     padding: 15px 30px;
     text-align: center;
     transition: 0.5s;

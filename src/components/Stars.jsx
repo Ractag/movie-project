@@ -10,7 +10,6 @@ function Stars() {
         <div className='stars-style'>
           <Rating
             onClick={handleRating}
-
           />
         </div>
       )

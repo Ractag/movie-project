@@ -1,7 +1,6 @@
 import "./style.scss";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import "./App.css";
 import movieList from "./components/Data";
 import NavBar from "./components/NavBar";
 import { useState } from "react";
